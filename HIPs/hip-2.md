@@ -20,11 +20,13 @@ Each GAN Component (generator, discriminator, etc) each receives it's own config
 Reproducability and parallel training
 
 ## Specification
-```{
+```json
+{
   'component1': {
     'option1': 1.0
   }
-}```json
+}
+```
 
 ## Implementation
 
