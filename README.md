@@ -12,9 +12,14 @@ Your first PR should be a first draft of the final HIP.  An editor will manually
 
 If your HIP requires images, the image files should be included in a subdirectory of the `assets` folder for that HIP as follows: `assets/hip-N` (where **N** is to be replaced with the HIP number). When linking to an image in the HIP, use relative links such as `../assets/hip-1/image.png`.
 
-When you believe your HIP is mature and ready to progress past the draft phase, you should do one of two things:
+When you believe your HIP is mature and ready to progress past the draft phase, promote it by:
 
- - Open a PR changing the state of your HIP to 'Accepted' or 'Implemented' with a pull request link. An editor will review your draft and ask if anyone objects to its being finalised. If the editor decides there is no rough consensus - for instance, because contributors point out significant issues with the HIP - they may close the PR and request that you fix the issues in the draft before trying again.
+* Open a PR changing the state of your HIP to 'Accepted' or 'Implemented' with a pull request link. 
+* An editor will review your draft and request for community comments, if appropriate.  If there are significant issues with the HIP - editors may close the PR and request that you fix the issues in the draft before trying again.
+
+HIPs will allow the community to shape HyperGAN.  HyperGAN changing HIPs will move from Accepted to Implemented to Released.
+
+Generally, configuration options do not require HIPs.  Standards, use cases, file types and common interfaces are good HIP candidates.
 
 # HIP Status Terms
 
