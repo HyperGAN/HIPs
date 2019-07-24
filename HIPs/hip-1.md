@@ -66,8 +66,6 @@ Each HIP must begin with an [RFC 822](https://www.ietf.org/rfc/rfc822.txt) style
 
 ` status:` <Draft | Accepted | Implemented | Released | Active | Abandoned | Rejected | Superseded>
 
-` * type:` <Code | Standards | Meta>
-
 ` * citations:` URLs to any papers or research
 
 ` created:` <date created on>
@@ -88,25 +86,9 @@ Headers requiring dates will always do so in the format of ISO 8601 (yyyy-mm-dd)
 
 #### `author` header
 
-The `author` header optionally lists the names, email addresses or usernames of the authors/owners of the HIP. Those who prefer anonymity may use a username only, or a first name and a username. The format of the author header value must be:
+The `author` header optionally lists the names, email addresses or usernames of the authors/owners of the HIP. Those who prefer anonymity may use a username only, or a first name and a username.
 
 This field is optional.
-
-> Random J. User &lt;address@dom.ain&gt;
-
-or
-
-> Random J. User (@username)
-
-if the email address or GitHub username is included, and
-
-> Random J. User
-
-if the email address is not given.
-
-#### `type` header
-
-The `type` header specifies the type of HIP: Code | Standards | Meta 
 
 #### `category` header
 
@@ -138,7 +120,7 @@ If you are interested in assuming ownership of an HIP, send a message asking to 
 
 For each new HIP that comes in, an editor does the following:
 
-- Read the HIP to check if it is ready: sound and complete. The ideas must make technical sense, even if they don't seem likely to get to final status.
+- Read the HIP to check if it is ready: sound and complete. The ideas must make technical sense, even if they don't seem likely to get to Accepted status.
 - The title should accurately describe the content.
 - Check the HIP for language (spelling, grammar, sentence structure, etc.), markup (Github flavored Markdown), code style
 
@@ -150,17 +132,15 @@ Once the HIP is ready for the repository, the HIP editor will:
 
 - Merge the corresponding pull request
 
-- Send a message back to the HIP author with the next step.
-
-Many HIPs are written and maintained by developers with write access to the Ethereum codebase. The HIP editors monitor HIP changes, and correct any structure, grammar, spelling, or markup mistakes we see.
+Many HIPs are written and maintained by developers with write access to the HyperGAN codebase. The HIP editors monitor HIP changes, and correct any structure, grammar, spelling, or markup mistakes we see.
 
 The editors don't pass judgment on HIPs. We merely do the administrative & editorial part.
 
 ## History
 
-This document was derived heavily from [Ethereum's EIP-1], which was derived from [Bitcoin's BIP-0001] written by Amir Taaki which in turn was derived from [Python's PEP-0001]. In many places text was simply copied and modified. Although the PEP-0001 text was written by Barry Warsaw, Jeremy Hylton, and David Goodger, they are not responsible for its use in the Ethereum Improvement Process, and should not be bothered with technical questions specific to Ethereum or the HIP. Please direct all comments to the HIP editors.
+This document was derived heavily from [Ethereum's EIP-1], which was derived from [Bitcoin's BIP-0001] which was derived from [Python's PEP-0001]. In many places text was simply copied and modified.  Technical questions specific to HyperGAN should be directed to the HIP editors.
 
-July 24, 2019: Forked and customized from EIP
+July 24, 2019: Forked shortened and customized from EIP
 
 ## Copyright
 
