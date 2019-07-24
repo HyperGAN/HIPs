@@ -22,8 +22,8 @@ Reproducability and parallel training
 ## Specification
 ```json
 {
-  'component1': {
-    'option1': 1.0
+  "component1": {
+    "option1": 1.0
   }
 }
 ```
