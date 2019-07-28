@@ -22,7 +22,8 @@ Reproducability and parallel training
 {
   "component1": {
     "option1": 1.0
-  }
+  },
+  "hypergan_version": "0.10.0"
 }
 ```
 
