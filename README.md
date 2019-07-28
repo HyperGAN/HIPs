@@ -14,7 +14,7 @@ If your HIP requires images, the image files should be included in a subdirector
 
 When you believe your HIP is mature and ready to progress past the draft phase, promote it by:
 
-* Open a PR changing the state of your HIP to 'Accepted' or 'Implemented' with a pull request link. 
+* Open a PR changing the state of your HIP to 'Accepted' or 'Implemented'. 
 * An editor will review your draft and request for community comments, if appropriate.  If there are significant issues with the HIP - editors may close the PR and request that you fix the issues in the draft before trying again.
 
 HIPs will allow the community to shape HyperGAN.  HyperGAN changing HIPs will move from Accepted to Implemented to Released.
