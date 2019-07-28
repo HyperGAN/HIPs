@@ -5,8 +5,6 @@ status: Released
 created: 2019-07-24
 ---
 
-This is a core piece of HyperGAN
-
 ## Simple Summary
 JSON files define a GAN
 
